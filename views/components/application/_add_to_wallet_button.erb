@@ -1,0 +1,8 @@
+<div id="<%= comp.id %>"
+     class="v-plugin v-plugin--add-to-wallet-button v-actionable"
+     data-plugin-callback="AddToWalletButton"
+     data-locale="<%= comp.locale %>"
+     data-pass-url="<%= comp.pass_url %>"
+     <%= partial "components/event", locals: {comp: comp, events: comp.events, parent_id: comp.id} %>>
+  <!-- All inner content will be replaced. -->
+</div>

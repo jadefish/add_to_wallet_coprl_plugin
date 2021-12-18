@@ -1,0 +1,23 @@
+{
+  "name": "Add to Wallet",
+  "version": "0.1.0",
+  "description": "Front end code for the Add to Wallet COPRL plugin",
+  "main": "dist/add_to_wallet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadefish/add_to_wallet_coprl_plugin.git"
+  },
+  "author": "Nick Miller <nick@nmiller.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jadefish/add_to_wallet_coprl_plugin/issues"
+  },
+  "homepage": "https://github.com/jadefish/add_to_wallet_coprl_plugin#readme",
+  "devDependencies": {
+  }
+}
