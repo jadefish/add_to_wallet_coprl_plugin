@@ -1,7 +1,1 @@
-class AddToWallet {
-  constructor() {
-    console.log('Hello, wallets!');
-  }
-}
-
-export default AddToWallet;
+export { default } from './add_to_wallet_button'
