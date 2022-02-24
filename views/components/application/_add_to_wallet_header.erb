@@ -1,0 +1,20 @@
+<script>
+  <%= raw File.read(File.expand_path('../../wallets/dist/bundle.js', __dir__)) %>
+</script>
+<style>
+  .v-plugin--add-to-wallet-button {
+    display: inline-block;
+  }
+
+  .v-plugin--add-to-wallet-button > a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+    width: 100%;
+  }
+
+  .v-plugin--add-to-wallet-button object[data] {
+    pointer-events: none;
+    user-select: none;
+  }
+</style>
